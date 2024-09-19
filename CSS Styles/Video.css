@@ -1,0 +1,85 @@
+p {
+    font-family: Roboto, Arial;
+    margin-top: 0;
+    margin-bottom: 0;
+  }
+  
+  .thumnail {
+    width: 100%;
+  }
+
+  .thumnail-row {
+    margin-bottom: 10px;
+    position: relative;
+
+  }
+
+
+    .title  {
+    margin-top: 2px;
+    font-size: 16px;
+    font-weight: bold;
+    line-height: 20px;
+    margin-bottom: 12px;
+    }
+
+    .channel-grid  {
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    }
+    
+    .chan {
+    width: 38px;
+    border-radius: 50px;
+    margin-top: 2px;
+    }
+
+
+    .author,
+    .time {
+    font-size: 12px;
+    color: rgb(30, 28, 28);
+    font-family: Arial;
+     }
+
+    .author {
+        margin-bottom: 4px;
+    }
+    
+    .You-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        column-gap: 17px;
+        row-gap: 32px;
+    }
+
+    @media (max-width: 700px) {
+      .You-grid {
+        grid-template-columns: 1fr 1fr;
+  } }
+
+  @media (min-width: 699x) and  (max-width: 850px) {
+    .You-grid {
+      grid-template-columns: 1fr 1fr;
+} }
+  
+    
+  @media (min-width: 950px) {
+    .You-grid {
+      grid-template-columns: 1fr 1fr 1fr;
+} }
+  
+
+
+    .video-time {
+       background-color: black;
+       color: white;
+       position: absolute;
+       bottom: 12px;
+       right: 8px;
+       font-size: 13px;
+       font-weight: 700;
+       padding: 3px  5px;
+    }
+
+    
